@@ -1,0 +1,838 @@
+{
+  "00": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": null,
+    "assimilate_to_level": 0
+  },
+  "01": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "11",
+    "assimilate_to_level": 1
+  },
+  "02": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "22",
+    "assimilate_to_level": 1
+  },
+  "03": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "33",
+    "assimilate_to_level": 4
+  },
+  "04": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "44",
+    "assimilate_to_level": 4
+  },
+  "05": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": null,
+    "assimilate_to_level": 0
+  },
+  "06": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "66",
+    "assimilate_to_level": 3
+  },
+  "07": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "77",
+    "assimilate_to_level": 3
+  },
+  "08": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "88",
+    "assimilate_to_level": 2
+  },
+  "09": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "99",
+    "assimilate_to_level": 2
+  },
+  "10": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "11",
+    "assimilate_to_level": 1
+  },
+  "11": {
+    "magnet": "伏位",
+    "type": "吉",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "持續、等待、平穩",
+    "assimilate_to": null
+  },
+  "12": {
+    "magnet": "絕命",
+    "type": "凶",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "衝動、好勝、冒險",
+    "assimilate_to": null
+  },
+  "13": {
+    "magnet": "天醫",
+    "type": "吉",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "財富、聰明、正桃花",
+    "assimilate_to": null
+  },
+  "14": {
+    "magnet": "生氣",
+    "type": "吉",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "貴人、樂觀、活潑",
+    "assimilate_to": null
+  },
+  "15": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "11",
+    "assimilate_to_level": 1
+  },
+  "16": {
+    "magnet": "六煞",
+    "type": "凶",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "桃花、社交、情緒",
+    "assimilate_to": null
+  },
+  "17": {
+    "magnet": "禍害",
+    "type": "凶",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "口才、小人、口角",
+    "assimilate_to": null
+  },
+  "18": {
+    "magnet": "五鬼",
+    "type": "凶",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "變動、才華、疑心",
+    "assimilate_to": null
+  },
+  "19": {
+    "magnet": "延年",
+    "type": "吉",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "專業、能力、事業心",
+    "assimilate_to": null
+  },
+  "20": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "22",
+    "assimilate_to_level": 1
+  },
+  "21": {
+    "magnet": "絕命",
+    "type": "凶",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "衝動、好勝、冒險",
+    "assimilate_to": null
+  },
+  "22": {
+    "magnet": "伏位",
+    "type": "吉",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "持續、等待、平穩",
+    "assimilate_to": null
+  },
+  "23": {
+    "magnet": "禍害",
+    "type": "凶",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "口才、小人、口角",
+    "assimilate_to": null
+  },
+  "24": {
+    "magnet": "五鬼",
+    "type": "凶",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "變動、才華、疑心",
+    "assimilate_to": null
+  },
+  "25": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "22",
+    "assimilate_to_level": 1
+  },
+  "26": {
+    "magnet": "延年",
+    "type": "吉",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "專業、能力、事業心",
+    "assimilate_to": null
+  },
+  "27": {
+    "magnet": "天醫",
+    "type": "吉",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "財富、聰明、正桃花",
+    "assimilate_to": null
+  },
+  "28": {
+    "magnet": "生氣",
+    "type": "吉",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "貴人、樂觀、活潑",
+    "assimilate_to": null
+  },
+  "29": {
+    "magnet": "六煞",
+    "type": "凶",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "桃花、社交、情緒",
+    "assimilate_to": null
+  },
+  "30": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "33",
+    "assimilate_to_level": 4
+  },
+  "31": {
+    "magnet": "天醫",
+    "type": "吉",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "財富、聰明、正桃花",
+    "assimilate_to": null
+  },
+  "32": {
+    "magnet": "禍害",
+    "type": "凶",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "口才、小人、口角",
+    "assimilate_to": null
+  },
+  "33": {
+    "magnet": "伏位",
+    "type": "吉",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "持續、等待、平穩",
+    "assimilate_to": null
+  },
+  "34": {
+    "magnet": "延年",
+    "type": "吉",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "專業、能力、事業心",
+    "assimilate_to": null
+  },
+  "35": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "33",
+    "assimilate_to_level": 4
+  },
+  "36": {
+    "magnet": "五鬼",
+    "type": "凶",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "變動、才華、疑心",
+    "assimilate_to": null
+  },
+  "37": {
+    "magnet": "絕命",
+    "type": "凶",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "衝動、好勝、冒險",
+    "assimilate_to": null
+  },
+  "38": {
+    "magnet": "六煞",
+    "type": "凶",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "桃花、社交、情緒",
+    "assimilate_to": null
+  },
+  "39": {
+    "magnet": "生氣",
+    "type": "吉",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "貴人、樂觀、活潑",
+    "assimilate_to": null
+  },
+  "40": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "44",
+    "assimilate_to_level": 4
+  },
+  "41": {
+    "magnet": "生氣",
+    "type": "吉",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "貴人、樂觀、活潑",
+    "assimilate_to": null
+  },
+  "42": {
+    "magnet": "五鬼",
+    "type": "凶",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "變動、才華、疑心",
+    "assimilate_to": null
+  },
+  "43": {
+    "magnet": "延年",
+    "type": "吉",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "專業、能力、事業心",
+    "assimilate_to": null
+  },
+  "44": {
+    "magnet": "伏位",
+    "type": "吉",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "持續、等待、平穩",
+    "assimilate_to": null
+  },
+  "45": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "44",
+    "assimilate_to_level": 4
+  },
+  "46": {
+    "magnet": "禍害",
+    "type": "凶",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "口才、小人、口角",
+    "assimilate_to": null
+  },
+  "47": {
+    "magnet": "六煞",
+    "type": "凶",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "桃花、社交、情緒",
+    "assimilate_to": null
+  },
+  "48": {
+    "magnet": "絕命",
+    "type": "凶",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "衝動、好勝、冒險",
+    "assimilate_to": null
+  },
+  "49": {
+    "magnet": "天醫",
+    "type": "吉",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "財富、聰明、正桃花",
+    "assimilate_to": null
+  },
+  "50": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": null,
+    "assimilate_to_level": 0
+  },
+  "51": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "11",
+    "assimilate_to_level": 1
+  },
+  "52": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "22",
+    "assimilate_to_level": 1
+  },
+  "53": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "33",
+    "assimilate_to_level": 4
+  },
+  "54": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "44",
+    "assimilate_to_level": 4
+  },
+  "55": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": null,
+    "assimilate_to_level": 0
+  },
+  "56": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "66",
+    "assimilate_to_level": 3
+  },
+  "57": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "77",
+    "assimilate_to_level": 3
+  },
+  "58": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "88",
+    "assimilate_to_level": 2
+  },
+  "59": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "99",
+    "assimilate_to_level": 2
+  },
+  "60": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "66",
+    "assimilate_to_level": 3
+  },
+  "61": {
+    "magnet": "六煞",
+    "type": "凶",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "桃花、社交、情緒",
+    "assimilate_to": null
+  },
+  "62": {
+    "magnet": "延年",
+    "type": "吉",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "專業、能力、事業心",
+    "assimilate_to": null
+  },
+  "63": {
+    "magnet": "五鬼",
+    "type": "凶",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "變動、才華、疑心",
+    "assimilate_to": null
+  },
+  "64": {
+    "magnet": "禍害",
+    "type": "凶",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "口才、小人、口角",
+    "assimilate_to": null
+  },
+  "65": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "66",
+    "assimilate_to_level": 3
+  },
+  "66": {
+    "magnet": "伏位",
+    "type": "吉",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "持續、等待、平穩",
+    "assimilate_to": null
+  },
+  "67": {
+    "magnet": "生氣",
+    "type": "吉",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "貴人、樂觀、活潑",
+    "assimilate_to": null
+  },
+  "68": {
+    "magnet": "天醫",
+    "type": "吉",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "財富、聰明、正桃花",
+    "assimilate_to": null
+  },
+  "69": {
+    "magnet": "絕命",
+    "type": "凶",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "衝動、好勝、冒險",
+    "assimilate_to": null
+  },
+  "70": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "77",
+    "assimilate_to_level": 3
+  },
+  "71": {
+    "magnet": "禍害",
+    "type": "凶",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "口才、小人、口角",
+    "assimilate_to": null
+  },
+  "72": {
+    "magnet": "天醫",
+    "type": "吉",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "財富、聰明、正桃花",
+    "assimilate_to": null
+  },
+  "73": {
+    "magnet": "絕命",
+    "type": "凶",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "衝動、好勝、冒險",
+    "assimilate_to": null
+  },
+  "74": {
+    "magnet": "六煞",
+    "type": "凶",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "桃花、社交、情緒",
+    "assimilate_to": null
+  },
+  "75": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "77",
+    "assimilate_to_level": 3
+  },
+  "76": {
+    "magnet": "生氣",
+    "type": "吉",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "貴人、樂觀、活潑",
+    "assimilate_to": null
+  },
+  "77": {
+    "magnet": "伏位",
+    "type": "吉",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "持續、等待、平穩",
+    "assimilate_to": null
+  },
+  "78": {
+    "magnet": "延年",
+    "type": "吉",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "專業、能力、事業心",
+    "assimilate_to": null
+  },
+  "79": {
+    "magnet": "五鬼",
+    "type": "凶",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "變動、才華、疑心",
+    "assimilate_to": null
+  },
+  "80": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "88",
+    "assimilate_to_level": 2
+  },
+  "81": {
+    "magnet": "五鬼",
+    "type": "凶",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "變動、才華、疑心",
+    "assimilate_to": null
+  },
+  "82": {
+    "magnet": "生氣",
+    "type": "吉",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "貴人、樂觀、活潑",
+    "assimilate_to": null
+  },
+  "83": {
+    "magnet": "六煞",
+    "type": "凶",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "桃花、社交、情緒",
+    "assimilate_to": null
+  },
+  "84": {
+    "magnet": "絕命",
+    "type": "凶",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "衝動、好勝、冒險",
+    "assimilate_to": null
+  },
+  "85": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "88",
+    "assimilate_to_level": 2
+  },
+  "86": {
+    "magnet": "天醫",
+    "type": "吉",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "財富、聰明、正桃花",
+    "assimilate_to": null
+  },
+  "87": {
+    "magnet": "延年",
+    "type": "吉",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "專業、能力、事業心",
+    "assimilate_to": null
+  },
+  "88": {
+    "magnet": "伏位",
+    "type": "吉",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "持續、等待、平穩",
+    "assimilate_to": null
+  },
+  "89": {
+    "magnet": "禍害",
+    "type": "凶",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "口才、小人、口角",
+    "assimilate_to": null
+  },
+  "90": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "99",
+    "assimilate_to_level": 2
+  },
+  "91": {
+    "magnet": "延年",
+    "type": "吉",
+    "level": 1,
+    "weight": 1.0,
+    "trait": "專業、能力、事業心",
+    "assimilate_to": null
+  },
+  "92": {
+    "magnet": "六煞",
+    "type": "凶",
+    "level": 4,
+    "weight": 0.25,
+    "trait": "桃花、社交、情緒",
+    "assimilate_to": null
+  },
+  "93": {
+    "magnet": "生氣",
+    "type": "吉",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "貴人、樂觀、活潑",
+    "assimilate_to": null
+  },
+  "94": {
+    "magnet": "天醫",
+    "type": "吉",
+    "level": 3,
+    "weight": 0.5,
+    "trait": "財富、聰明、正桃花",
+    "assimilate_to": null
+  },
+  "95": {
+    "magnet": "中性",
+    "type": "中",
+    "level": 0,
+    "weight": 0,
+    "trait": "—（含 0 或 5 同化）",
+    "assimilate_to": "99",
+    "assimilate_to_level": 2
+  },
+  "96": {
+    "magnet": "絕命",
+    "type": "凶",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "衝動、好勝、冒險",
+    "assimilate_to": null
+  },
+  "97": {
+    "magnet": "五鬼",
+    "type": "凶",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "變動、才華、疑心",
+    "assimilate_to": null
+  },
+  "98": {
+    "magnet": "禍害",
+    "type": "凶",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "口才、小人、口角",
+    "assimilate_to": null
+  },
+  "99": {
+    "magnet": "伏位",
+    "type": "吉",
+    "level": 2,
+    "weight": 0.75,
+    "trait": "持續、等待、平穩",
+    "assimilate_to": null
+  }
+}

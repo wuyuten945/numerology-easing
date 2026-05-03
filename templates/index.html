@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>數字易經分析</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="app">
+    <nav class="tabs">
+      <button class="tab-btn active" data-tab="auto">個人分析</button>
+      <button class="tab-btn" data-tab="manual">進階分析</button>
+      <button class="tab-btn" data-tab="recommend">智能建議</button>
+    </nav>
+
+    <main>
+      <section id="tab-auto" class="tab-panel active">
+        <form id="form-auto" class="form-grid">
+          <label>身分證字號<input type="text" name="id" placeholder="如 A123456789"></label>
+          <label>電話<input type="text" name="phone" placeholder="如 0912345678"></label>
+          <label>車牌（4 位數字）<input type="text" name="license" placeholder="如 1234"></label>
+          <div class="form-actions"><button type="submit">分析</button></div>
+        </form>
+        <div id="result-auto" class="result"></div>
+      </section>
+
+      <section id="tab-manual" class="tab-panel">
+        <p class="form-hint">輸入 1～3 組號碼，系統合併後計算交互作用（增長 / 抵銷）的最終結果。</p>
+        <form id="form-manual" class="form-grid">
+          <label>號碼 1<input type="text" name="input1" placeholder="如 13311331"></label>
+          <label>號碼 2<input type="text" name="input2" placeholder="如 0912345678"></label>
+          <label>號碼 3<input type="text" name="input3" placeholder="如 A1234"></label>
+          <div class="form-actions"><button type="submit">分析</button></div>
+        </form>
+        <div id="result-manual" class="result"></div>
+      </section>
+
+      <section id="tab-recommend" class="tab-panel">
+        <p class="form-hint">建議內容會自動讀取「個人分析」結果，避開您身上已有的凶星、加強對應的吉星。請先到個人分析頁完成身分證／電話／車牌的分析。</p>
+        <form id="form-recommend" class="form-grid">
+          <label>用途
+            <select name="purpose">
+              <option value="phone">電話</option>
+              <option value="license">車牌</option>
+              <option value="pin">PIN 或密碼</option>
+            </select>
+          </label>
+          <label>長度<input type="number" name="length" value="10" min="2" max="12"></label>
+          <label>開頭<input type="text" name="prefix" value="09" placeholder="如 09"></label>
+          <div class="form-actions"><button type="submit">推薦</button></div>
+        </form>
+        <div id="result-recommend" class="result"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
