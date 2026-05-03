@@ -988,6 +988,179 @@ main { display: block; }
   font-size: 15px;
 }
 
+/* ─── 法遵 Footer + Cookie banner + Modal ─── */
+.legal-footer {
+  margin-top: 40px;
+  padding: 24px 16px 32px;
+  background: rgba(255,255,255,0.55);
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+.legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 16px;
+  margin-bottom: 12px;
+}
+.legal-links button {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.15s;
+}
+.legal-links button:hover {
+  background: rgba(0,0,0,0.05);
+  color: var(--text);
+}
+.legal-copy {
+  font-size: 12px;
+  color: var(--text-subtle);
+  line-height: 1.6;
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--accent-solid);
+  color: #fff;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  z-index: 100;
+  box-shadow: 0 -4px 16px rgba(0,0,0,0.18);
+  flex-wrap: wrap;
+}
+.cookie-text { font-size: 14px; line-height: 1.55; flex: 1; min-width: 200px; }
+.cookie-link {
+  background: none;
+  border: none;
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0 4px;
+}
+.cookie-accept {
+  background: #fff;
+  color: var(--accent-solid);
+  border: none;
+  padding: 10px 22px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.legal-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.legal-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+}
+.legal-modal-card {
+  position: relative;
+  background: #fff;
+  border-radius: var(--radius);
+  max-width: 720px;
+  width: 100%;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+.legal-modal-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+}
+.legal-modal-head h2 { font-size: 20px; font-weight: 700; }
+.legal-close {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--text-muted);
+  padding: 4px 8px;
+  line-height: 1;
+}
+.legal-modal-body {
+  padding: 20px 24px 28px;
+  overflow-y: auto;
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--text);
+}
+.legal-modal-body h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 18px 0 8px;
+  color: var(--text);
+}
+.legal-modal-body p { margin: 8px 0; }
+.legal-modal-body ul, .legal-modal-body ol { margin: 8px 0 8px 24px; }
+.legal-modal-body li { margin: 4px 0; }
+.legal-modal-body strong { color: var(--text); font-weight: 700; }
+.legal-meta {
+  font-size: 12px;
+  color: var(--text-subtle);
+  margin-top: 18px;
+  border-top: 1px dashed var(--border);
+  padding-top: 10px;
+}
+.legal-warning {
+  background: #fef3c7;
+  border-left: 4px solid #d97706;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  margin-bottom: 14px;
+}
+.legal-warning p { margin: 4px 0; }
+.legal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.legal-table th, .legal-table td {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+.legal-table th { background: var(--bg); font-weight: 700; }
+
+@media (max-width: 640px) {
+  .legal-footer { padding: 20px 14px 28px; }
+  .legal-links button { font-size: 12px; padding: 6px 10px; }
+  .cookie-banner { flex-direction: column; align-items: stretch; padding: 12px 14px; }
+  .cookie-accept { width: 100%; padding: 12px; }
+  .legal-modal-card { max-height: 92vh; }
+  .legal-modal-head { padding: 16px 18px; }
+  .legal-modal-head h2 { font-size: 17px; }
+  .legal-modal-body { padding: 16px 18px 22px; font-size: 14px; }
+}
+
 /* ═══ 行動裝置（≤640px）═══════════════════════ */
 @media (max-width: 640px) {
   body { font-size: 16px; }

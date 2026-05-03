@@ -56,6 +56,40 @@
     </main>
   </div>
 
+  <!-- ─── Footer 法遵連結 ──────────────────── -->
+  <footer class="legal-footer">
+    <div class="legal-links">
+      <button type="button" data-legal="personal-data">個人資料蒐集告知</button>
+      <button type="button" data-legal="privacy">隱私權政策</button>
+      <button type="button" data-legal="cookie">Cookie 政策</button>
+      <button type="button" data-legal="minor">未成年保護</button>
+      <button type="button" data-legal="disclaimer">使用警語</button>
+    </div>
+    <div class="legal-copy">© 2026 數字易經分析　·　本系統僅供參考，不構成任何決策依據</div>
+  </footer>
+
+  <!-- ─── Cookie 同意條 ────────────────────── -->
+  <div id="cookie-banner" class="cookie-banner" hidden>
+    <div class="cookie-text">
+      本網站使用必要 Cookie 以維持基本功能與記住您的語言偏好。繼續使用即視為同意。
+      <button type="button" data-legal="cookie" class="cookie-link">了解更多</button>
+    </div>
+    <button type="button" id="cookie-accept" class="cookie-accept">我同意</button>
+  </div>
+
+  <!-- ─── 法遵內容 Modal ──────────────────── -->
+  <div id="legal-modal" class="legal-modal" hidden>
+    <div class="legal-modal-backdrop" data-close></div>
+    <div class="legal-modal-card">
+      <div class="legal-modal-head">
+        <h2 id="legal-modal-title"></h2>
+        <button type="button" class="legal-close" data-close aria-label="關閉">✕</button>
+      </div>
+      <div id="legal-modal-body" class="legal-modal-body"></div>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/legal.js') }}"></script>
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>
 </html>
