@@ -279,6 +279,9 @@ document.getElementById("form-auto").addEventListener("submit", async e => {
   if (data.id || data.phone || data.license) {
     personalAnalysis = data;
   }
+
+  // 隱私保護：分析完立即清空所有輸入欄位（防個資殘留）
+  e.target.reset();
 });
 
 // 將個人分析的 id/phone/license 磁場數量加總
@@ -500,6 +503,9 @@ document.getElementById("form-manual").addEventListener("submit", async e => {
   html += renderAnalysis(combined, inputs.length > 1 ? "合併分析" : "分析結果", "chart-manual");
   container.innerHTML = html;
   if (!combined.error) drawMagnetChart("chart-manual", combined.magnet_count);
+
+  // 隱私保護：分析完立即清空輸入欄位
+  e.target.reset();
 });
 
 // ─── 視覺化：手機與車牌 ───────────────────────
