@@ -1040,6 +1040,7 @@ main { display: block; }
   box-shadow: 0 -4px 16px rgba(0,0,0,0.18);
   flex-wrap: wrap;
 }
+.cookie-banner[hidden] { display: none !important; }
 .cookie-text { font-size: 14px; line-height: 1.55; flex: 1; min-width: 200px; }
 .cookie-link {
   background: none;
@@ -1072,6 +1073,7 @@ main { display: block; }
   justify-content: center;
   padding: 16px;
 }
+.legal-modal[hidden] { display: none !important; }
 .legal-modal-backdrop {
   position: absolute;
   inset: 0;
